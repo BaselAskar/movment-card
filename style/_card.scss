@@ -8,8 +8,8 @@
   padding: 2rem;
   // transition: trasnform .1s linear;
   // transform: perspective(50rem) rotateY(10deg) ;
-  box-shadow: 30px 30px 8px rgba(230, 97, 97, 0.548);
-  // box-shadow: 10px 10px 22px rgba(88, 88, 88, 0.616);
+  // box-shadow: 30px 30px 8px rgba(230, 97, 97, 0.548);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
 
 
   &__img{
@@ -31,6 +31,7 @@
 
   &__content{
     line-height: 1.3rem;
+    cursor: default;
   }
 
 }

@@ -8,7 +8,7 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  background-image: linear-gradient(45deg, #45f31a, #2bc97f);
+  background-image: linear-gradient(45deg, #43d, #2bc97f);
   background-attachment: fixed;
 }
 
@@ -20,7 +20,7 @@ body {
   border-radius: 12px;
   background-color: #039b6d;
   padding: 2rem;
-  box-shadow: 30px 30px 8px rgba(230, 97, 97, 0.548);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
 }
 .card__img {
   width: 100px;
@@ -36,4 +36,5 @@ body {
 }
 .card__content {
   line-height: 1.3rem;
+  cursor: default;
 }/*# sourceMappingURL=main.css.map */
