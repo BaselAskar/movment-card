@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-image: linear-gradient(45deg, #45f31a, #2bc97f);
+  background-attachment: fixed;
+}
+
+.card {
+  display: inline-block;
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  border-radius: 12px;
+  background-color: #039b6d;
+  padding: 2rem;
+  box-shadow: 30px 30px 8px rgba(230, 97, 97, 0.548);
+}
+.card__img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.card__header {
+  text-align: center;
+  padding: 1rem;
+}
+.card__content {
+  line-height: 1.3rem;
+}/*# sourceMappingURL=main.css.map */

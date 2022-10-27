@@ -1,0 +1,36 @@
+.card{
+  display: inline-block;
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  border-radius: 12px;
+  background-color: $color-card;
+  padding: 2rem;
+  // transition: trasnform .1s linear;
+  // transform: perspective(50rem) rotateY(10deg) ;
+  box-shadow: 30px 30px 8px rgba(230, 97, 97, 0.548);
+  // box-shadow: 10px 10px 22px rgba(88, 88, 88, 0.616);
+
+
+  &__img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+
+
+
+  &__header{
+    text-align: center;
+    padding: 1rem;
+  }
+
+
+  &__content{
+    line-height: 1.3rem;
+  }
+
+}
